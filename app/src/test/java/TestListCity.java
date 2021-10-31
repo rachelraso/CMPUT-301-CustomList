@@ -30,6 +30,7 @@ public class TestListCity {
         City addACity = new City("Halifax", "NS");
         list.addCity(addACity);
         assertTrue(list.hasCity(addACity));
+
     }
 
     @Test
