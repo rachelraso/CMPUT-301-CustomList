@@ -47,6 +47,7 @@ public class TestListCity {
         else {
             assertEquals(list.getCount(), listSize);
         }
+
     }
 
 
