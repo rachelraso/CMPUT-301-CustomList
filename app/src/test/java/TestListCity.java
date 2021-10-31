@@ -50,5 +50,15 @@ public class TestListCity {
 
     }
 
+    @Test
+    public void countCitiesTest(){
+        City cityName = new City("Halifax", "NS");
+        list.addCity(cityName);
+        City cityNameTwo = new City("Calgary", "AB");
+        list.addCity(cityNameTwo);
+        assertEquals(list.countCities(), 2);
+
+    }
+
 
 }
